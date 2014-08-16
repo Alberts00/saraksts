@@ -58,7 +58,6 @@ else
 				#sleep 10;
 				#Codebird twitu posteris. Var izmantot arī citu.
 				/usr/bin/php /var/www/html/jsgym/codebird/post_izmainas_img.php;
-				#/usr/bin/mutt -s "Stundu saraksts ir ticis atjaunots plkst. $HOUR" -a /var/www/html/jsgym/saraksts.png "gym_izmainas.9845@twitpic.com" < /var/www/html/jsgym/timestamp.letter;
 				rm -f md5sum_pic.old	
 			fi
 		fi
